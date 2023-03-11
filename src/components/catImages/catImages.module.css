@@ -1,0 +1,18 @@
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 24px;
+  padding-left: 10%;
+}
+
+.img {
+  border-radius: 200px;
+  transform: 0.3s;
+  width: 120px;
+  height: 120px;
+}
+
+.img:hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}

@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(144, 82, 51);
+}
+
+.App {
+  width: 80%;
+  margin: 60px auto;
+  display: grid;
+  grid-template-areas:
+    "c i"
+    "c i";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 20% 1fr;
+  grid-gap: 8px;
+  grid-auto-flow: column;
+}
+
+h1 {
+  text-align: center;
+  margin-right: 145px;
+}

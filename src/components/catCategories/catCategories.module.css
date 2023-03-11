@@ -1,0 +1,25 @@
+.categories {
+  display: grid;
+  grid-area: c;
+  height: 40px;
+}
+
+.categoryButton {
+  width: 120px;
+  padding: 6px 14px;
+  margin-top: 40px;
+  border: 1px solid rgb(42, 41, 41);
+  border-radius: 10px;
+  background-color: rgb(86, 83, 83);
+  color: rgb(245, 211, 194);
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 2px 2px 2px black;
+  text-transform: capitalize;
+}
+
+.categoryButton:hover {
+  opacity: 0.8;
+  transition: 0.2s;
+  transform: scale(1.1);
+}
